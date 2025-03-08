@@ -1,0 +1,177 @@
+body{
+    background-color:black;
+
+}
+/* header part */
+.header{
+    width:100%;
+ /* background-color: white; */
+    text-align: center;
+   padding: 28px 30px;
+}
+.main-title{
+    text-decoration: none;
+    color:#b7b7b7;
+    font-size: 36px;
+    text-transform: uppercase;
+    letter-spacing: 6.5px;
+  font-family:"Playfair Display", serif;
+}
+.main-title:hover{
+    color:#ff5133;
+    transition: 0.3s;
+}
+.sub-title{
+    color:#b7b7b7;
+    letter-spacing: 5px;
+    text-transform: uppercase;
+    line-height: 1.5px;
+    font-size: normal;
+    font-family:"Open Sans", sans-serif;
+}
+
+/* menu part */
+
+.navmenu{
+    width: 100%;
+    border-top: 1px solid grey;
+    
+   
+    
+}
+.navmenu ul{
+    margin: 0px;
+    text-align: center;
+    padding: 15px;
+    
+   
+}
+.navmenu li{
+    display:inline;
+    padding-left: 40px;
+
+    
+}
+.navmenu a{
+    text-decoration: none;
+    color:white;
+    font-size: 16px;
+    font-family:"Open Sans", sans-serif;
+    letter-spacing:0.29px;
+    font-weight: normal;
+    font-style: normal; 
+
+}
+#home{
+    color: #ff5133;
+}
+.navmenu a:hover{
+    color:#ff5133;
+    transition: 0.3s;
+   
+}
+.navmenu a:active{
+    color: #ff5133;
+
+}
+/* coffe cup image */
+.cup image{
+    width: 100%;
+   
+    
+}
+ #cup{
+    height:860px;
+    width:100%;
+
+}
+/* paragrah area */
+.para{
+    width: 94%;
+    height: 177px;
+    margin: 70px 30px 15px 30px;
+    padding: 30px;
+
+}
+.sub-para{
+    color: #999;
+    text-align: center;
+    font-family: "Roboto", Sans-serif;
+    font-size: 22px;
+    font-weight: 400px;
+    line-height: 1.6em;
+
+}
+
+/* another image */
+
+.secondimage img{
+    width: 880px;
+    height: 495px;
+    padding-left: 310px;
+}
+
+/* social icon */
+
+.social-icon{
+ width: 100%;
+ height: 350px;
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ gap: 60px;
+ 
+}
+.social-icon a{
+    text-decoration: none;
+    font-size: 30px;
+    transition: color 0.3s ease-in-out;
+}
+.social-icon a.facebook{
+    color: #1877f2;
+    
+}
+.social-icon a.instagram{
+    color: rgb(54, 51, 52);
+
+}
+.social-icon a.linkedin{
+    color: rgb(14, 119, 168);
+}
+.social-icon a.youtube{
+    color: red;
+    
+}
+
+/* footer part  */
+
+.footer-div{
+    width: 100%;
+    height:100px;
+    text-align: center;
+   
+}
+.footer-anchor a {
+    color: #b7b7b7;
+    font-size: 10px;
+    
+    
+}
+.footer-anchor a:hover{
+    color:#ff5133;
+    transition: 0.3s;
+    border-bottom: 1px solid #ff5133;
+    
+   
+}
+.footer-anchor a:active{
+    color:#ff5133;
+   
+}
+span{
+    color: #999;
+}
+.footer-para{
+    color:#999;
+    display: inline;
+}
